@@ -1,0 +1,19 @@
+{
+    "name": "reactphp-framework/laravel-log",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reactphp\\Framework\\LaravelLog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "require": {
+        "wpjscc/filesystem": "^0.2.0",
+        "illuminate/log": "^11.5"
+    }
+}
