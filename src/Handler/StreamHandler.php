@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 /*
  * This file is part of the Monolog package.
@@ -139,7 +141,7 @@ class StreamHandler extends AbstractProcessingHandler
             // ignoring errors here, there's not much we can do about them
             // todo 
         }
-        app('reactphp.filesystem')->file($this->url)->putContents( (string) $record->formatted, \FILE_APPEND);
+        app('reactphp.filesystem')->file($this->url)->putContents((string) $record->formatted, \FILE_APPEND);
         if ($this->useLocking) {
             // todo     
         }
@@ -151,7 +153,6 @@ class StreamHandler extends AbstractProcessingHandler
      */
     protected function streamWrite($stream, LogRecord $record): void
     {
-
     }
 
     private function customErrorHandler(int $code, string $msg): bool
@@ -191,7 +192,7 @@ class StreamHandler extends AbstractProcessingHandler
             $status = mkdir($dir, 0777, true);
             restore_error_handler();
             if (false === $status && !is_dir($dir) && strpos((string) $this->errorMessage, 'File exists') === false) {
-                throw new \UnexpectedValueException(sprintf('There is no existing directory at "%s" and it could not be created: '.$this->errorMessage, $dir));
+                throw new \UnexpectedValueException(sprintf('There is no existing directory at "%s" and it could not be created: ' . $this->errorMessage, $dir));
             }
         }
         $this->dirCreated = true;
