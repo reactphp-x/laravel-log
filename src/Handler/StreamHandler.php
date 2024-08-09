@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Reactphp\Framework\LaravelLog\Handler;
+namespace Reactphp\X\LaravelLog\Handler;
 
 use Monolog\Level;
 use Monolog\Utils;

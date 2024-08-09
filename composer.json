@@ -1,9 +1,9 @@
 {
-    "name": "reactphp-framework/laravel-log",
+    "name": "reactphp-x/laravel-log",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Reactphp\\Framework\\LaravelLog\\": "src/"
+            "Reactphp\\X\\LaravelLog\\": "src/"
         }
     },
     "authors": [

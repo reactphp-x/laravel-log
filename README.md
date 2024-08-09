@@ -1,11 +1,11 @@
-# reactphp-framework--laravel-log
+# reactphp-x--laravel-log
 
 use async log for laravel in reactphp framework
 
 ## install
 
 ```
-composer require reactphp-framework/laravel-log -vvv
+composer require reactphp-x/laravel-log -vvv
 ```
 
 ## License
