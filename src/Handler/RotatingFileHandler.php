@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Reactphp\X\LaravelLog\Handler;
+namespace ReactphpX\LaravelLog\Handler;
 
 use InvalidArgumentException;
 use Monolog\Level;

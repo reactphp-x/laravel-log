@@ -1,12 +1,12 @@
 <?php
-namespace Reactphp\X\LaravelLog\Providers;
+namespace ReactphpX\LaravelLog\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Monolog\Logger as Monolog;
 use Monolog\Processor\PsrLogMessageProcessor;
 use React\Filesystem\Factory;
-use Reactphp\X\LaravelLog\Handler\StreamHandler;
-use Reactphp\X\LaravelLog\Handler\RotatingFileHandler;
+use ReactphpX\LaravelLog\Handler\StreamHandler;
+use ReactphpX\LaravelLog\Handler\RotatingFileHandler;
 
 class ServerServiceProvider extends ServiceProvider
 {

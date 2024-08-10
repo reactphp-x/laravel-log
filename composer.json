@@ -3,7 +3,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Reactphp\\X\\LaravelLog\\": "src/"
+            "ReactphpX\\LaravelLog\\": "src/"
         }
     },
     "authors": [
